@@ -1,0 +1,16 @@
+# To use:
+#   $ conda env create -f environment.yml
+#   $ conda activate <name>
+name: weaviate
+dependencies:
+  - python=3.9
+  - pip
+  - nb_conda_kernels
+  - ipykernel
+  - ipywidgets
+  - gh
+  - conda
+  - pip:
+    - weaviate-client==3.19.2
+    - python-dotenv==1.0.0
+    - pandas==2.0.2
